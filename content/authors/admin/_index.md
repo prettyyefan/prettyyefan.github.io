@@ -1,13 +1,13 @@
 ---
 # Display name
-title: 吳健雄
+title: 王烨凡
 
 # Name pronunciation (optional)
-name_pronunciation: Chien Shiung Wu
+name_pronunciation: Yefan Wang
 
 # Full name (for SEO)
-first_name: Shiung Wu
-last_name: Chien
+first_name: Yefan
+last_name: Wang
 
 # Status emoji
 status:
@@ -38,7 +38,7 @@ profiles:
   - icon: brands/instagram
     url: https://www.instagram.com/
   - icon: brands/github
-    url: https://github.com/gcushen
+    url: https://github.com/prettyyefan
   - icon: brands/linkedin
     url: https://www.linkedin.com/
   - icon: academicons/google-scholar
