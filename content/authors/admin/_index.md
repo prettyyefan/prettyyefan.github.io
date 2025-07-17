@@ -31,7 +31,7 @@ organizations:
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
 profiles:
   - icon: envelope
-    url: 'wyf18516028919@outlook.com'
+    url: 'mailto:wyf18516028919@outlook.com?subject=Hello%20from%20GitHub&body=Hi%2C%0A%0AI%20found%20your%20contact%20through%20your%20GitHub%20profile.%0A%0ABest%20regards%2C%0A'
     label: E-mail Me
   - icon: brands/x
     url: https://twitter.com/GetResearchDev
