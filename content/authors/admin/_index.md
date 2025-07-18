@@ -30,21 +30,16 @@ organizations:
 # Social network links
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
 profiles:
+    # 邮箱地址
   - icon: envelope
     url: 'mailto:wyf18516028919@outlook.com?subject=Hello%20from%20GitHub&body=Hi%2C%0A%0AI%20found%20your%20contact%20through%20your%20GitHub%20profile.%0A%0ABest%20regards%2C%0A'
     label: E-mail Me
-  - icon: brands/x
-    url: https://twitter.com/GetResearchDev
-  - icon: brands/instagram
-    url: https://www.instagram.com/
+
+  # github
   - icon: brands/github
     url: https://github.com/prettyyefan
   - icon: brands/linkedin
-    url: https://www.linkedin.com/
-  - icon: academicons/google-scholar
-    url: https://scholar.google.com/
-  - icon: academicons/orcid
-    url: https://orcid.org/
+
 
 interests:
   - Artificial Intelligence
@@ -52,8 +47,8 @@ interests:
   - Information Retrieval
 
 education:
-  - area: PhD Artificial Intelligence
-    institution: Stanford University
+  - area: MBA Master of Business Administration
+    institution: University of Shanghai for Science and Technology
     date_start: 2016-01-01
     date_end: 2020-12-31
     summary: |
@@ -61,8 +56,8 @@ education:
     button:
       text: 'Read Thesis'
       url: 'https://example.com'
-  - area: MEng Artificial Intelligence
-    institution: Massachusetts Institute of Technology
+  - area: B.Eng. Bachelor of Automotive Engineering
+    institution: Jiangsu University Jingjiang College
     date_start: 2016-01-01
     date_end: 2020-12-31
     summary: |
@@ -72,8 +67,8 @@ education:
       - lorem ipsum dolor sit amet, consectetur adipiscing elit
       - lorem ipsum dolor sit amet, consectetur adipiscing elit
       - lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - area: BSc Artificial Intelligence
-    institution: Massachusetts Institute of Technology
+  - area: Diploma Diploma in Mechatronics Engineering
+    institution: Suzhou Industrial Park Institute of Vocational Technology
     date_start: 2016-01-01
     date_end: 2020-12-31
     summary: |
