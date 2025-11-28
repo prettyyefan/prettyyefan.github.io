@@ -4,16 +4,16 @@
 # This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
 
 # Website name
-title: 叶凡的学术主页
+title: Yefan Wang
 # Website URL
-baseURL: 'https://yefan.github.io/'
+baseURL: 'https://prettyyefan.github.io/' #放自己的github的url，需要修改
 
 ############################
 ## LANGUAGE
 ############################
 
-defaultContentLanguage: zh
-hasCJKLanguage: true
+defaultContentLanguage: en
+hasCJKLanguage: false
 defaultContentLanguageInSubdir: false
 removePathAccents: true
 

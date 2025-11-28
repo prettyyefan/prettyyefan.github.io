@@ -3,15 +3,20 @@
 #   Documentation: https://docs.hugoblox.com/reference/language/
 
 # Default language
-zh:
-  languageCode: zh-Hans
-  title: 叶凡的学术主页
-  params:
-    description: 叶凡的个人学术网站
-
-# English version (optional)
 en:
   languageCode: en-us
-  title: Ye Fan's Academic Homepage
-  params:
-    description: Ye Fan's Personal Academic Website
+  # Uncomment for multi-lingual sites, and move English content into `en` sub-folder.
+  #contentDir: content/en
+
+# Uncomment the lines below to configure your website in a second language.
+#zh:
+#  languageCode: zh-Hans
+#  contentDir: content/zh
+#  title: Chinese website title...
+#  params:
+#    description: Site description in Chinese...
+#  menu:
+#    main:
+#      - name: 传
+#        url: '#about'
+#        weight: 1

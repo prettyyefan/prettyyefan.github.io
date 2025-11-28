@@ -1,16 +1,16 @@
 ---
 # Display name
-title: 叶凡
+title: Yefan Wang
 
 # Name pronunciation (optional)
-name_pronunciation: 'Ye Fan'
+name_pronunciation: 'yefan'
 
 # Full name (for SEO)
-first_name: 凡
-last_name: 叶
+first_name: Yefan
+last_name: Wang
 
 # Pronouns (optional)
-pronouns: ''
+pronouns: he/him
 
 # Status emoji
 status:
@@ -23,81 +23,75 @@ superuser: true
 highlight_name: true
 
 # Role/position/tagline
-role: 研究员 / 博士生
+role: Master's Student
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
-  - name: 您的大学/机构
-    url: https://example.edu/
+  - name: University of Shanghai for Science and Technology
+    url: https://www.usst.edu.cn/
 
 # Social network links
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
 profiles:
   - icon: at-symbol
-    url: 'mailto:your.email@example.com'
+    url: 'wyf18516028919@outlook.com'
     label: E-mail Me
+
   - icon: brands/github
-    url: https://github.com/yefan
-  - icon: brands/linkedin
-    url: https://www.linkedin.com/in/yourprofile/
-  - icon: academicons/google-scholar
-    url: https://scholar.google.com/citations?user=yourprofile
+    url: https://github.com/prettyyefan
+
   - icon: academicons/orcid
-    url: https://orcid.org/0000-0000-0000-0000
+    url: https://orcid.org/0009-0003-3881-2071
 
 interests:
-  - 人工智能
-  - 机器学习
-  - 深度学习
-  - 数据科学
+  - AI
+  - ML
+  - DL
+  - CV
+  - Data Science
 
 education:
-  - area: 计算机科学博士
-    institution: 您的大学
+  - area: Master of Business Administration (MBA)
+    institution: University of Shanghai for Science and Technology
+    icon: ""
+    date_start: 2025-09-01
+    date_end: 2027-06-30
+    # 拓张模块
+    summary: |
+      Thesis on _Scaling Laws for Neural Language Models_. Supervised by Prof. Andrew Ng. Published 5 papers in NeurIPS and ICML, with 2 best paper awards.
+    button:
+      text: 'Read Thesis'
+      url: 'https://example.com/thesis.pdf'
+  - area: Bachelor of Engineering in Vehicle Engineering
+    institution: Jiangsu University Jingjiang College
     icon: ""
     date_start: 2020-09-01
-    date_end: 2024-06-30
+    date_end: 2022-06-30
     summary: |
-      研究方向：人工智能与机器学习。导师：XXX教授。发表论文X篇。
-    button:
-      text: '查看论文'
-      url: 'https://example.com/thesis.pdf'
-  - area: 计算机科学硕士
-    institution: 您的大学
+      GPA: 2.669/4.0
+
+      Participated in the Formula Student China (FSC)
+  - area: Mechatronics Technology
+    institution: Suzhou Industrial Park Institute of Vocational Technology
     icon: ""
-    date_start: 2018-09-01
+    date_start: 2017-09-01
     date_end: 2020-06-30
     summary: |
-      GPA: 3.8/4.0
-      
-      专注于机器学习和数据挖掘研究。
-  - area: 计算机科学学士
-    institution: 您的大学
-    icon: ""
-    date_start: 2014-09-01
-    date_end: 2018-06-30
-    summary: |
-      GPA: 3.7/4.0
-      
-      获得优秀毕业生称号。
+      Served as Class Monitor
+
+      Participated in the Bosch Dual Apprenticeship Program
 
 work:
-  - position: 研究员/博士后
-    company_name: 您的机构
-    company_url: 'https://example.edu/'
+  - position: Maintenance Engineer
+    company_name: Bosch
+    company_url: 'https://www.bosch.com/'
     icon: ''
-    date_start: 2024-07-01
-    date_end: ''
-    summary: |2-
-      从事人工智能相关研究工作,发表多篇高水平论文。
-  - position: 研究实习生
-    company_name: 某科技公司
-    company_url: 'https://example.com/'
-    icon: ''
-    date_start: 2023-06-01
-    date_end: 2023-09-30
+    date_start: 2022-01-01
+    date_end: '2023-07-30'
     summary: |
-      参与机器学习项目开发,积累实践经验。
+      1.Involved in the stabilization and upgrade of the iBooster braking system automated production line, driving improvements in Production Line OEE and managing equipment spare parts.
+      2.Participated in the research and development (R&D) and deployment of Enterprise-level Industry 4.0 solutions.
+      3.Development of Industrial Digitalization.
 
 # Skills
 # Add your own SVG icons to `assets/media/icons/`
@@ -134,37 +128,23 @@ skills:
         icon: book-open
 
 languages:
-  - name: 中文
+  - name: Chinese
     percent: 100
   - name: English
-    percent: 80
+    percent: 10
 
 # Awards.
 #   Add/remove as many awards below as you like.
 #   Only `title`, `awarder`, and `date` are required.
 #   Begin multi-line `summary` with YAML's `|` or `|2-` multi-line prefix and indent 2 spaces below.
 awards:
-  - title: 优秀论文奖
-    url: https://example.com/
-    date: '2023-12-01'
-    awarder: 某学术会议
+  - title: National Third Prize
+    url: https://cpipc.acge.org.cn/
+    date: '2025-11-17'
+    awarder: The 22nd China Post-Graduate Mathematical Contest in Modeling
     icon: hero/trophy
     summary: |
-      因在机器学习领域的杰出研究获奖。
-  - title: 国家奖学金
-    url: https://example.edu/
-    date: '2022-11-01'
-    awarder: 教育部
-    icon: hero/currency-dollar
-    summary: |
-      获得国家奖学金,表彰学术成就。
-  - title: 优秀毕业生
-    url: https://example.edu/
-    date: '2020-06-30'
-    awarder: 您的大学
-    icon: hero/academic-cap
-    summary: |
-      被评为优秀毕业生。
+      Served as Team Captain/Key Contributions
 ---
 
-叶凡是一名专注于人工智能和机器学习研究的学者。研究兴趣包括深度学习、自然语言处理和计算机视觉等领域。已在多个国际顶级会议和期刊上发表学术论文。致力于推动人工智能技术的发展和应用,同时关注AI伦理和社会影响。
+Alex Johnson is a Senior AI Research Scientist at Meta AI, where he leads groundbreaking work on large language models and multimodal systems. His research has been published in top conferences like NeurIPS and ICML, with over 10,000 citations. Alex is passionate about pushing the boundaries of AI while ensuring ethical development. Outside of work, he enjoys hiking in the Rockies, building custom PCs, and mentoring the next generation of AI talent.

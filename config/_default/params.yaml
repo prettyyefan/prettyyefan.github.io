@@ -42,12 +42,12 @@ header:
     show_search: true
     show_theme_chooser: true
     logo:
-      text: '叶凡'
+      text: 'Yefan Wang'
 
 # Site footer
 footer:
   copyright:
-    notice: '© {year} 叶凡. This work is licensed under {license}'
+    notice: '© {year} Yefan Wang. This work is licensed under {license}'
     license:
       enable: true
       allow_derivatives: false

@@ -52,7 +52,7 @@ git push -u origin main
 git add .
 
 # 提交修改
-git commit -m "更新内容描述"
+git commit -m "update 2025.11.29"
 
 # 推送到GitHub
 git push
