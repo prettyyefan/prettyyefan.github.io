@@ -106,26 +106,22 @@ skills:
         description: ''
         percent: 100
         icon: chart-bar
-      - name: Cloud Computing (AWS/GCP)
-        description: ''
-        percent: 85
-        icon: cloud
   - name: Hobbies
     color: '#eeac02'
     color_border: '#f0bf23'
     items:
-      - name: Hiking in the Rockies
+      - name: Hearthstone
         description: ''
         percent: 80
-        icon: person-simple-walk
-      - name: Building Custom PCs
+        icon: sparkles
+      - name: PUBG
         description: ''
         percent: 90
-        icon: cpu-chip
-      - name: Sci-Fi Reading
+        icon: puzzle-piece
+      - name: Traveling
         description: ''
         percent: 70
-        icon: book-open
+        icon: globe-alt
 
 languages:
   - name: Chinese
@@ -140,10 +136,21 @@ languages:
 awards:
   - title: National Third Prize
     url: https://cpipc.acge.org.cn/
-    date: '2025-11-17'
+    date: '2025-09-25'
     awarder: The 22nd China Post-Graduate Mathematical Contest in Modeling
     icon: hero/trophy
     summary: |
+      **Theme:** Intelligent Fault Diagnosis Method for High-Speed Train Bearings Based on TCAC-Transformer
+      
+      Served as Team Captain/Key Contributions
+  - title: Third Prize at the University Level
+    url: https://cpipc.acge.org.cn/
+    date: '2025-11-15'
+    awarder: The 4th China Postgraduate Fintech Innovation Competition
+    icon: hero/trophy
+    summary: |
+      **Theme:** Construction and Application of a Computer Vision-Based Model for Seal Forgery Detection in Credit Approval
+
       Served as Team Captain/Key Contributions
 ---
 
