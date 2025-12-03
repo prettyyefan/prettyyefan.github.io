@@ -16,13 +16,6 @@ main:
   - name: Awards
     url: awards/
     weight: 21
-  # 后续可能会使用
-  - name: Talks
-    url: /#talks
-    weight: 12
-  - name: News
-    url: /#news
-    weight: 13
   - name: Projects
     url: projects/
     weight: 30
