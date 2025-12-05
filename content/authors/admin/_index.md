@@ -55,6 +55,10 @@ profiles:
     url: https://www.kaggle.com/yefanwang
     label: Kaggle
 
+  - icon: custom/huggingface
+    url: https://huggingface.co/prettyyefan
+    label: huggingface
+
 interests:
   - AI
   - ML
@@ -112,7 +116,7 @@ skills:
     items:
       - name: Python
         description: ''
-        icon: brands/python
+        icon: custom/python
       - name: PyTorch
         description: ''
         icon: custom/pytorch

@@ -1,0 +1,41 @@
+{{ if .Params.profiles }}
+<div class="flex flex-wrap text-neutral-500 dark:text-neutral-300">
+  {{ range $links := .Params.profiles }}
+    {{ $link := .url }}
+    {{ $scheme := (urls.Parse $link).Scheme }}
+    {{ $target := "" }}
+    {{ if not $scheme }}
+      {{ $link = .url | relLangURL }}
+    {{ else if in (slice "http" "https") $scheme }}
+      {{ $target = "target=\"_blank\" rel=\"noopener\" rel=\"me noopener noreferrer\"" }}
+    {{ end }}
+    
+    {{/* Check if it's a custom icon */}}
+    {{ if hasPrefix .icon "custom/" }}
+      {{ $icon_path := replace .icon "custom/" "" }}
+      {{ $icon_svg := resources.Get (printf "media/icons/custom/%s.svg" $icon_path) }}
+      {{ if $icon_svg }}
+        <a
+          class="pr-2 transition-transform hover:scale-125 hover:text-primary-700 dark:hover:text-primary-400"
+          style="will-change:transform;"
+          href="{{ $link | safeURL }}"
+          {{ $target | safeHTMLAttr }}
+          aria-label="{{ .icon | title }}"
+        ><svg style="height: 1em; width: 1em; display: inline-block; vertical-align: 0.125em;" viewBox="0 0 1024 1024">{{ ($icon_svg.Content | replaceRE `<\?xml[^>]*>` "" | replaceRE `<!DOCTYPE[^>]*>` "" | replaceRE `<svg[^>]*>` "" | replaceRE `</svg>` "") | safeHTML }}</svg></a>
+      {{ end }}
+    {{ else }}
+      {{ $icon_content := partial "functions/get_icon" (dict "name" .icon "attributes" "style=\"height: 1em;\"") }}
+      {{ if $icon_content }}
+        <a
+          class="pr-2 transition-transform hover:scale-125 hover:text-primary-700 dark:hover:text-primary-400"
+          style="will-change:transform;"
+          href="{{ $link | safeURL }}"
+          {{ $target | safeHTMLAttr }}
+          aria-label="{{ .icon | title }}"
+        >{{ $icon_content }}</a>
+      {{ end }}
+    {{ end }}
+  {{ end }}
+</div>
+{{ end }}
+
