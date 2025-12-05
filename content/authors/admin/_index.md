@@ -14,7 +14,7 @@ pronouns: he/him
 
 # Status emoji
 status:
-  icon: 📚
+  icon: ⭐
 
 # Is this the primary user of the site?
 superuser: true
@@ -33,8 +33,8 @@ organizations:
 # Social network links
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
 profiles:
-  - icon: at-symbol
-    url: 'wyf18516028919@outlook.com'
+  - icon: hero/envelope
+    url: 'mailto:wyf18516028919@outlook.com'
     label: E-mail Me
 
   - icon: brands/github
@@ -56,7 +56,7 @@ education:
     icon: ""
     date_start: 2025-09-01
     date_end: 2027-06-30
-    # 拓张模块
+    # 拓展模块
     summary: |
       Thesis on _Scaling Laws for Neural Language Models_. Supervised by Prof. Andrew Ng. Published 5 papers in NeurIPS and ICML, with 2 best paper awards.
     button:
@@ -154,4 +154,4 @@ awards:
       Served as Team Captain/Key Contributions
 ---
 
-Alex Johnson is a Senior AI Research Scientist at Meta AI, where he leads groundbreaking work on large language models and multimodal systems. His research has been published in top conferences like NeurIPS and ICML, with over 10,000 citations. Alex is passionate about pushing the boundaries of AI while ensuring ethical development. Outside of work, he enjoys hiking in the Rockies, building custom PCs, and mentoring the next generation of AI talent.
+I inputted my career history into an AI agent, and it assessed me as a 'Senior Intelligent Manufacturing Engineer with managerial acumen.' Although I feel humbled and perhaps unworthy of such a title, I must say, the feedback was both fascinating and deeply inspiring.
