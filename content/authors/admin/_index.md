@@ -14,7 +14,7 @@ pronouns: he/him
 
 # Status emoji
 status:
-  icon: ⭐
+  icon: custom/China
 
 # Is this the primary user of the site?
 superuser: true
@@ -42,6 +42,18 @@ profiles:
 
   - icon: academicons/orcid
     url: https://orcid.org/0009-0003-3881-2071
+
+  - icon: academicons/google-scholar
+    url: https://scholar.google.com/citations?user=sBgbysIAAAAJ&hl=zh-CN
+    label: Google Scholar
+
+  - icon: academicons/researchgate
+    url: https://www.researchgate.net/profile/Yefan-Wang-9
+    label: ResearchGate
+
+  - icon: custom/kaggle
+    url: https://www.kaggle.com/yefanwang
+    label: Kaggle
 
 interests:
   - AI
@@ -98,30 +110,28 @@ work:
 skills:
   - name: Technical Skills
     items:
-      - name: Python & PyTorch
+      - name: Python
         description: ''
-        percent: 95
-        icon: code-bracket
+        icon: brands/python
+      - name: PyTorch
+        description: ''
+        icon: custom/pytorch
       - name: Machine Learning
         description: ''
-        percent: 100
-        icon: chart-bar
+        icon: custom/Machinelearning
   - name: Hobbies
     color: '#eeac02'
     color_border: '#f0bf23'
     items:
       - name: Hearthstone
         description: ''
-        percent: 80
-        icon: sparkles
+        icon: custom/lushi
       - name: PUBG
         description: ''
-        percent: 90
-        icon: puzzle-piece
+        icon: custom/pubg
       - name: Traveling
         description: ''
-        percent: 70
-        icon: globe-alt
+        icon: custom/Travel 
 
 languages:
   - name: Chinese

@@ -24,6 +24,10 @@ sections:
       username: admin
     design:
       show_skill_percentage: false
+      columns: 2
+      view: compact
+      css_class: 'text-sm'
+      icon_scale: 1.5
   - block: resume-languages
     content:
       title: Languages

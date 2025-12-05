@@ -1,0 +1,28 @@
+/* 国旗图标显示框改为方形，并填满整个框 */
+.avatar-emoji {
+  border-radius: 0.5rem !important; /* 方形带圆角 */
+  padding: 0 !important;
+  margin: 0 !important;
+  overflow: hidden !important;
+  display: inline-block !important;
+  line-height: 0 !important;
+  background: transparent !important;
+  width: 3rem !important;
+  height: 3rem !important;
+  box-shadow: none !important;
+  border: none !important;
+}
+
+.avatar-emoji img {
+  width: 3rem !important;
+  height: 3rem !important;
+  object-fit: cover !important;
+  border-radius: 0.5rem !important;
+  display: block !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  vertical-align: top !important;
+  box-shadow: none !important;
+  border: none !important;
+}
+
