@@ -1,22 +1,24 @@
 ---
-title: 'An example conference paper'
+title: 'PRGCD: Probabilistic Representation Learning for Generalized Category Discovery'
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here
 # and it will be replaced with their full name and linked to their profile.
 authors:
+  - Yiming Han
+  - Jiayang Cheng
   - admin
-  - Robert Ford
 
 # Author notes (optional)
 author_notes:
-  - 'Equal contribution'
-  - 'Equal contribution'
+  - 'First author'
+  - 'Second author'
+  - 'Third author'
 
-date: '2013-07-01T00:00:00Z'
+date: '2025-12-11T00:00:00Z'
 
 # Schedule page publish date (NOT publication's date).
-publishDate: '2017-01-01T00:00:00Z'
+publishDate: '2025-12-11T00:00:00Z'
 
 # Publication type.
 # Accepts a single type but formatted as a YAML list (for Hugo requirements).
@@ -24,16 +26,16 @@ publishDate: '2017-01-01T00:00:00Z'
 publication_types: ['paper-conference']
 
 # Publication name and optional abbreviated publication name.
-publication: In *Hugo Blox Builder Conference*
-publication_short: In *ICW*
+publication: In *The IEEE International Conference on Multimedia & Expo 2026*
+publication_short: In *ICME 2026*
 
-abstract: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.
+abstract: Generalized Category Discovery (GCD) aims to classify unlabeled images from both known and novel categories, leveraging partially labeled data. Existing methods predominantly rely on deterministic contrastive learning, which represents each sample as a single point embedding and measures similarity through point-to-point distances. We argue that this paradigm is inherently limited, as it provides only one degree of freedom for optimization. In this paper, we propose PRGCD, a novel framework that models each sample as a Gaussian distribution parameterized by mean and variance. We adopt the 2-Wasserstein distance for distribution-level similarity, which naturally decomposes into location and spread terms, enabling dual consistency enforcement. Based on this formulation, we design Wasserstein Unsupervised Contrastive (WUC) loss and Wasserstein Supervised Contrastive (WSC) loss for representation learning, along with a distribution calibration loss to prevent posterior collapse. Extensive experiments on six benchmarks demonstrate that PRGCD achieves state-of-the-art performance.
 
 # Summary. An optional shortened abstract.
 summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
 
 tags:
-  - Large Language Models
+  - Analysis and Understanding
 
 # Display this page in the Featured widget?
 featured: true
@@ -41,27 +43,27 @@ featured: true
 # Standard identifiers for auto-linking
 hugoblox:
   ids:
-    doi: 10.5555/123456
+    arxiv: ''
 
 # Custom links
 links:
   - type: pdf
     url: ""
   - type: code
-    url: https://github.com/HugoBlox/hugo-blox-builder
+    url: ""
   - type: dataset
-    url: https://github.com/HugoBlox/hugo-blox-builder
+    url: ""
   - type: slides
-    url: https://www.slideshare.net/
+    url: ""
   - type: source
-    url: https://github.com/HugoBlox/hugo-blox-builder
+    url: ""
   - type: video
-    url: https://youtube.com
+    url: ""
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.
 image:
-  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/pLCdAaMFLTE)'
+  caption: ''
   focal_point: ''
   preview_only: false
 
