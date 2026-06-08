@@ -103,7 +103,7 @@ work:
     company_url: 'https://www.bosch.com/'
     icon: ''
     date_start: 2022-01-01
-    date_end: '2023-07-30'
+    date_end: '2023-09-30'
     summary: |
       1.Involved in the stabilization and upgrade of the iBooster braking system automated production line, driving improvements in Production Line OEE and managing equipment spare parts.
       2.Participated in the research and development (R&D) and deployment of Enterprise-level Industry 4.0 solutions.
