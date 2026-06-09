@@ -168,4 +168,4 @@ awards:
       Served as Team Captain/Key Contributions
 ---
 
-I inputted my career history into an AI agent, and it assessed me as a 'Senior Intelligent Manufacturing Engineer with managerial acumen.' Although I feel humbled and perhaps unworthy of such a title, I must say, the feedback was both fascinating and deeply inspiring.
+Honor in the everyday; hardship in the endurance.
