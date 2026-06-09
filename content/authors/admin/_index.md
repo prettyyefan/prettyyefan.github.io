@@ -64,7 +64,6 @@ interests:
   - ML
   - DL
   - CV
-  - Data Science
 
 education:
   - area: Master of Business Administration (MBA)
