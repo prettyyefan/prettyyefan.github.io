@@ -66,18 +66,17 @@ interests:
   - CV
 
 education:
-  - area: Master of Business Administration (MBA)
+  - area: 
     institution: University of Shanghai for Science and Technology
     icon: ""
     date_start: 2025-09-01
     date_end: 2027-06-30
-    # 拓展模块
     summary: |
-      Thesis on _Scaling Laws for Neural Language Models_. Supervised by Prof. Andrew Ng. Published 5 papers in NeurIPS and ICML, with 2 best paper awards.
+      
     button:
       text: 'Read Thesis'
-      url: 'https://example.com/thesis.pdf'
-  - area: Bachelor of Engineering in Vehicle Engineering
+      url: ''
+  - area: 
     institution: Jiangsu University Jingjiang College
     icon: ""
     date_start: 2020-09-01
@@ -86,7 +85,7 @@ education:
       GPA: 2.669/4.0
 
       Participated in the Formula Student China (FSC)
-  - area: Mechatronics Technology
+  - area: 
     institution: Suzhou Industrial Park Institute of Vocational Technology
     icon: ""
     date_start: 2017-09-01
