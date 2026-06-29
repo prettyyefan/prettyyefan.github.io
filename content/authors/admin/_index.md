@@ -66,7 +66,7 @@ interests:
   - CV
 
 education:
-  - area: 
+  - area: Master's Degree
     institution: University of Shanghai for Science and Technology
     icon: ""
     date_start: 2025-09-01
@@ -76,7 +76,7 @@ education:
     button:
       text: 'Read Thesis'
       url: ''
-  - area: 
+  - area: Bachelor's Degree
     institution: Jiangsu University Jingjiang College
     icon: ""
     date_start: 2020-09-01
@@ -85,7 +85,7 @@ education:
       GPA: 2.669/4.0
 
       Participated in the Formula Student China (FSC)
-  - area: 
+  - area: Associate Degree
     institution: Suzhou Industrial Park Institute of Vocational Technology
     icon: ""
     date_start: 2017-09-01
