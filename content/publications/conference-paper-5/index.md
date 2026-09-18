@@ -1,24 +1,20 @@
 ---
-title: 'PRGCD: Probabilistic Representation Learning for Generalized Category Discovery'
+title: 'GaugeDefect: Detecting Surface Anomalies by Curvature of Feature Transport'
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here
 # and it will be replaced with their full name and linked to their profile.
 authors:
-  - Yiming Han
-  - Jiayang Cheng
   - admin
 
 # Author notes (optional)
 author_notes:
   - 'First author'
-  - 'Second author'
-  - 'Third author'
 
-date: '2025-12-11T00:00:00Z'
+date: '2026-07-15T00:00:00Z'
 
 # Schedule page publish date (NOT publication's date).
-publishDate: '2025-12-11T00:00:00Z'
+publishDate: '2027-04-16T00:00:00Z'
 
 # Publication type.
 # Accepts a single type but formatted as a YAML list (for Hugo requirements).
@@ -26,16 +22,16 @@ publishDate: '2025-12-11T00:00:00Z'
 publication_types: ['paper-conference']
 
 # Publication name and optional abbreviated publication name.
-publication: In *The IEEE International Conference on Multimedia & Expo 2026*
-publication_short: In *ICME 2026*
+publication: The 9th Chinese Conference on Pattern Recognition and Computer Vision PRCV 2026.*
+publication_short: In *PRCV 2026*
 
-abstract: Generalized Category Discovery (GCD) aims to classify unlabeled images from both known and novel categories, leveraging partially labeled data. Existing methods predominantly rely on deterministic contrastive learning, which represents each sample as a single point embedding and measures similarity through point-to-point distances. We argue that this paradigm is inherently limited, as it provides only one degree of freedom for optimization. In this paper, we propose PRGCD, a novel framework that models each sample as a Gaussian distribution parameterized by mean and variance. We adopt the 2-Wasserstein distance for distribution-level similarity, which naturally decomposes into location and spread terms, enabling dual consistency enforcement. Based on this formulation, we design Wasserstein Unsupervised Contrastive (WUC) loss and Wasserstein Supervised Contrastive (WSC) loss for representation learning, along with a distribution calibration loss to prevent posterior collapse. Extensive experiments on six benchmarks demonstrate that PRGCD achieves state-of-the-art performance.
+abstract:  Industrial anomaly localization has advanced rapidly with feature-based, reconstruction-based, and distillation-based methods. Most of these methods score a region by asking how unusual its local appearance or feature representation is with respect to normal training images. This is a strong and practical formulation. In this work, we study a complementary geometric cue for cases where an abnormal region may still contain locally plausible visual features. Thin scratches, small dents, and disrupted repeated patterns often do not make every local patch individually abnormal; instead, they disturb how nearby features vary and connect across the surface. We propose GaugeDefect, a geometric method for surface anomaly localization based on the curvature of feature transport. Given a feature lattice, we estimate a local feature frame at each node and compute orthogonal transports between neighboring frames. The accumulated transport around a small closed loop gives a holonomy matrix, whose deviation from identity measures feature-transport curvature. After calibration on normal training images, unusually large curvature indicates a local inconsistency in the feature field. The curvature here is not the physical curvature of the inspected object, but a representation-space measure of neighborhood inconsistency. This makes the method applicable to curved surfaces, textured materials, and non-planar industrial objects. Its main role is to improve localization of subtle surface disruptions, while often producing sharper responses near defect boundaries as a natural consequence of the curvature signal.
 
 # Summary. An optional shortened abstract.
 summary: 
 
 tags:
-  - Analysis and Understanding
+  - Image Processing and Pattern Recognition
 
 # Display this page in the Featured widget?
 featured: true
@@ -43,7 +39,7 @@ featured: true
 # Standard identifiers for auto-linking
 hugoblox:
   ids:
-    arxiv: ''
+    arxiv: 'https://arxiv.org/abs/2609.13282'
 
 # Custom links
 links:

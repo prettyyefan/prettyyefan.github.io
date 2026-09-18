@@ -32,13 +32,13 @@ publication_short: In *ICANN 2026*
 abstract: Tactile paving in urban scenes is often affected by parked objects, moving pedestrians, and shadow-like interference. Although UAV inspection offers a flexible solution for accessibility monitoring, aerial tactile-path perception remains difficult because visually similar regions may play very different roles for traversability. We formulate this task as role-aware tactile-path perception rather than category-only recognition and propose a SAM2-based framework with motion-semantic guidance. Specifically, optical flow is used to derive region-level motion cues, which are converted into soft role priors and fused with tactile-path spatial cues and altitude information for role-aware segmentation. To support this task, we build UTP-9K, a UAV benchmark covering stationary blockage, moving targets, and shadow-like artifacts under different flight heights and scene conditions. Experiments show that the proposed method improves both obstacle perception and role-aware perception while effectively reducing false alarms under aerial viewpoints. These results suggest that motion-aware role reasoning is more suitable than appearance-only prediction for UAV-based tactile-path monitoring.
 
 # Summary. An optional shortened abstract.
-summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
+summary: 
 
 tags:
   - Advances in Artificial Intelligence, Remote Sensing and Signal Processing for Urban and Earth Applications
 
 # Display this page in the Featured widget?
-featured: true
+featured: false
 
 # Standard identifiers for auto-linking
 hugoblox:
@@ -48,7 +48,7 @@ hugoblox:
 # Custom links
 links:
   - type: pdf
-    url: ""
+    url: "https://doi.org/10.1007/978-3-032-38404-1_53"
   - type: code
     url: "https://github.com/prettyyefan/UTP-9K"
   - type: dataset

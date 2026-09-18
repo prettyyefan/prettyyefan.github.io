@@ -164,6 +164,13 @@ awards:
       **Theme:** Construction and Application of a Computer Vision-Based Model for Seal Forgery Detection in Credit Approval
 
       Served as Team Captain/Key Contributions
+  - title: Best Reviewer Award
+    url: https://icig.csig.org.cn/2026/
+    date: '2026-10-02'
+    awarder: The 14th International Conference on Image and Graphics (ICIG 2026)
+    icon: hero/trophy
+    summary: |
+      **Recognition:** Awarded for providing high-quality, constructive, and timely peer reviews for conference paper submissions.
 ---
 
 Honor in the everyday; hardship in the endurance.

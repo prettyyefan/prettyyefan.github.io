@@ -1,13 +1,13 @@
 ---
-title: 'PRGCD: Probabilistic Representation Learning for Generalized Category Discovery'
+title: 'Hull First, Wake Second: Wake-Reliance Suppression for Robust Maritime Vessel Detection'
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here
 # and it will be replaced with their full name and linked to their profile.
 authors:
-  - Yiming Han
-  - Jiayang Cheng
   - admin
+  - Xingyu Wang
+  - Ruibiao Zhu
 
 # Author notes (optional)
 author_notes:
@@ -15,10 +15,10 @@ author_notes:
   - 'Second author'
   - 'Third author'
 
-date: '2025-12-11T00:00:00Z'
+date: '2026-08-12T00:00:00Z'
 
 # Schedule page publish date (NOT publication's date).
-publishDate: '2025-12-11T00:00:00Z'
+publishDate: '2027-02-16T00:00:00Z'
 
 # Publication type.
 # Accepts a single type but formatted as a YAML list (for Hugo requirements).
@@ -26,16 +26,16 @@ publishDate: '2025-12-11T00:00:00Z'
 publication_types: ['paper-conference']
 
 # Publication name and optional abbreviated publication name.
-publication: In *The IEEE International Conference on Multimedia & Expo 2026*
-publication_short: In *ICME 2026*
+publication: In *The 14th International Conference on Image and Graphics (ICIG).*
+publication_short: In *ICIG 2026*
 
-abstract: Generalized Category Discovery (GCD) aims to classify unlabeled images from both known and novel categories, leveraging partially labeled data. Existing methods predominantly rely on deterministic contrastive learning, which represents each sample as a single point embedding and measures similarity through point-to-point distances. We argue that this paradigm is inherently limited, as it provides only one degree of freedom for optimization. In this paper, we propose PRGCD, a novel framework that models each sample as a Gaussian distribution parameterized by mean and variance. We adopt the 2-Wasserstein distance for distribution-level similarity, which naturally decomposes into location and spread terms, enabling dual consistency enforcement. Based on this formulation, we design Wasserstein Unsupervised Contrastive (WUC) loss and Wasserstein Supervised Contrastive (WSC) loss for representation learning, along with a distribution calibration loss to prevent posterior collapse. Extensive experiments on six benchmarks demonstrate that PRGCD achieves state-of-the-art performance.
+abstract: Maritime vessel detectors often face scenes where hulls are small, low-contrast, or blurred, while wakes are longer and easier to detect. This creates a wake-reliance problem: detectors may miss slow or stationary vessels with weak wakes, or produce false positives on wake-like water clutter. We propose HullWake, a hull-first wake-second framework for robust maritime vessel detection. HullWake separates proposal-centered hull evidence from directional wake context, extracts wake cues with bidirectional proposal-anchored corridors, and suppresses wake-dominant predictions through wake response supervision, wakeattenuated consistency, wake-only confidence suppression, and hull–wake decorrelation. We also introduce a wake-oriented evaluation protocol covering weak/no-wake vessels, wake-like hard negatives, worst-group AP, and confidence drop after wake attenuation. Experiments are conducted on Curated-Wake, a wake-oriented maritime dataset of about 10,000 images curated from Ships/Vessels in Aerial Images, the SMD benchmark, and SeaDronesSee, with newly added detection- and segmentation-level wake annotations. Compared with box-only detectors and mask-supervised segmentation baselines, HullWake improves overall AP, weak/no-wake robustness, wake-like false positives, worst-group AP, and confidence stability after wake attenuation.
 
 # Summary. An optional shortened abstract.
 summary: 
 
 tags:
-  - Analysis and Understanding
+  - Image Processing and Pattern Recognition
 
 # Display this page in the Featured widget?
 featured: true
@@ -43,14 +43,14 @@ featured: true
 # Standard identifiers for auto-linking
 hugoblox:
   ids:
-    arxiv: ''
+    arxiv: 'https://arxiv.org/abs/2608.26665'
 
 # Custom links
 links:
   - type: pdf
     url: ""
   - type: code
-    url: ""
+    url: "https://github.com/prettyyefan/HullWake"
   - type: dataset
     url: ""
   - type: slides

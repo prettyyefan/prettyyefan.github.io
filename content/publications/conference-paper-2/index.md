@@ -32,7 +32,7 @@ publication_short: In *ICANN 2026*
 abstract: Linguistic steganography faces two main challenges Traditional text-only methods struggle to adapt to the multimedia nature of modern interactions, particularly on social media platforms, and secret messages are easily destroyed by active manipulation. To address these challenges, we propose PE-Stega, a robust visually-enhanced linguistic steganographic framework. First, we use an LLM to generate semantically natural tweets embedded with secret emojis. Going beyond traditional statistical security, our framework emphasizes perceptual and cognitive imperceptibility, ensuring the multimodal content is perfectly suited for human-centric social networks. Most importantly, we introduce a visual-assisted self-recovery mechanism that embeds the key information for reconstructing the mapping dictionary and Reed-Solomon error-correcting codes into the accompanying generated image. This allows the receiver to recover the secret message from the image channel, even when the text is subjected to active attacks or the image undergoes severe distortions like format conversion, scaling, cropping, or occlusion. Extensive experiments show that PE-Stega achieves superior text quality and ensures highly reliable message recovery under targeted manipulation, significantly outperforming existing methods.
 
 # Summary. An optional shortened abstract.
-summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
+summary: 
 
 tags:
   - Large Language Models
