@@ -32,7 +32,7 @@ publication_short: In *ICME 2026*
 abstract: Generalized Category Discovery (GCD) aims to classify unlabeled images from both known and novel categories, leveraging partially labeled data. Existing methods predominantly rely on deterministic contrastive learning, which represents each sample as a single point embedding and measures similarity through point-to-point distances. We argue that this paradigm is inherently limited, as it provides only one degree of freedom for optimization. In this paper, we propose PRGCD, a novel framework that models each sample as a Gaussian distribution parameterized by mean and variance. We adopt the 2-Wasserstein distance for distribution-level similarity, which naturally decomposes into location and spread terms, enabling dual consistency enforcement. Based on this formulation, we design Wasserstein Unsupervised Contrastive (WUC) loss and Wasserstein Supervised Contrastive (WSC) loss for representation learning, along with a distribution calibration loss to prevent posterior collapse. Extensive experiments on six benchmarks demonstrate that PRGCD achieves state-of-the-art performance.
 
 # Summary. An optional shortened abstract.
-summary: 
+summary: None
 
 tags:
   - Analysis and Understanding
