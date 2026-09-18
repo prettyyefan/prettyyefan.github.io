@@ -14,7 +14,7 @@ author_notes:
 date: '2026-07-15T00:00:00Z'
 
 # Schedule page publish date (NOT publication's date).
-publishDate: '2027-04-16T00:00:00Z'
+publishDate: '2026-07-15T00:00:00Z'
 
 # Publication type.
 # Accepts a single type but formatted as a YAML list (for Hugo requirements).
