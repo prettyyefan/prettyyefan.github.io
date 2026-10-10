@@ -8,12 +8,18 @@ authors:
   - Jiacheng Fan
   - admin
   - Xiaofan Deng
+  - Feitong Wei
+  - Qirui Ji
+  - Jing Liu
 
 # Author notes (optional)
 author_notes:
   - 'First author'
   - 'Second author'
   - 'Third author'
+  - 'Fourth author'
+  - 'Fifth author'
+  - 'Sixth author'
 
 date: '2026-03-19T00:00:00Z'
 

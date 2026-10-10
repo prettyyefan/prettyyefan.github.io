@@ -8,12 +8,14 @@ authors:
   - admin
   - Xingyu Wang
   - Ruibiao Zhu
+  - Yusen Wu
 
 # Author notes (optional)
 author_notes:
   - 'First author'
   - 'Second author'
   - 'Third author'
+  - 'Fourth author'
 
 date: '2026-08-12T00:00:00Z'
 

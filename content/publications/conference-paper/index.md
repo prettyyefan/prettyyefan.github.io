@@ -8,12 +8,18 @@ authors:
   - Yiming Han
   - Jiayang Cheng
   - admin
+  - Hairu Wen
+  - Tingzhang Luo
+  - Jianyuan Ni
 
 # Author notes (optional)
 author_notes:
   - 'First author'
   - 'Second author'
   - 'Third author'
+  - 'Fourth author'
+  - 'Fifth author'
+  - 'Sixth author'
 
 date: '2025-12-11T00:00:00Z'
 

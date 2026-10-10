@@ -1,20 +1,36 @@
 ---
-title: 'GaugeDefect: Detecting Surface Anomalies by Curvature of Feature Transport'
+title: 'Task-Aware KV Cache Compression for LLM Agents via Utility-Driven Step Pruning'
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here
 # and it will be replaced with their full name and linked to their profile.
 authors:
-  - admin
+  - Yusen Wu
+  - Yefan Wang
+  - Jia Yee Tan
+  - Guangyuan Dong
+  - Shuang Chen
+  - Jing Yangum
+  - Rongfeng Guo
+  - Por Lip Yee
+  - Yongtai Liu
 
 # Author notes (optional)
 author_notes:
   - 'First author'
+  - 'Second author'
+  - 'Third author'
+  - 'Fourth author'
+  - 'Fifth author'
+  - 'Sixth author'
+  - 'Seventh author'
+  - 'Eighth author'
+  - 'Ninth author'
 
-date: '2026-07-15T00:00:00Z'
+date: '2026-09-15T00:00:00Z'
 
 # Schedule page publish date (NOT publication's date).
-publishDate: '2026-07-15T00:00:00Z'
+publishDate: '2026-09-15T00:00:00Z'
 
 # Publication type.
 # Accepts a single type but formatted as a YAML list (for Hugo requirements).
@@ -22,16 +38,16 @@ publishDate: '2026-07-15T00:00:00Z'
 publication_types: ['paper-conference']
 
 # Publication name and optional abbreviated publication name.
-publication: The 9th Chinese Conference on Pattern Recognition and Computer Vision PRCV 2026.*
-publication_short: In *PRCV 2026*
+publication: In *The Fortieth Annual Conference on Neural Information Processing Systems (NeurIPS).*
+publication_short: In *NeurIPS 2026*
 
-abstract:  Industrial anomaly localization has advanced rapidly with feature-based, reconstruction-based, and distillation-based methods. Most of these methods score a region by asking how unusual its local appearance or feature representation is with respect to normal training images. This is a strong and practical formulation. In this work, we study a complementary geometric cue for cases where an abnormal region may still contain locally plausible visual features. Thin scratches, small dents, and disrupted repeated patterns often do not make every local patch individually abnormal; instead, they disturb how nearby features vary and connect across the surface. We propose GaugeDefect, a geometric method for surface anomaly localization based on the curvature of feature transport. Given a feature lattice, we estimate a local feature frame at each node and compute orthogonal transports between neighboring frames. The accumulated transport around a small closed loop gives a holonomy matrix, whose deviation from identity measures feature-transport curvature. After calibration on normal training images, unusually large curvature indicates a local inconsistency in the feature field. The curvature here is not the physical curvature of the inspected object, but a representation-space measure of neighborhood inconsistency. This makes the method applicable to curved surfaces, textured materials, and non-planar industrial objects. Its main role is to improve localization of subtle surface disruptions, while often producing sharper responses near defect boundaries as a natural consequence of the curvature signal.
+abstract:  KV-cache compression for long-horizon LLM agents is often guided by accumulated attention, yet attention frequency can retain repetitive error traces while discarding decisive instructions. We propose TaskKV, a streaming step-level retention policy with three contributions, (1) a signed directional utility label from the first-order change in action likelihood, distinguishing helpful steps from confusing distractors unlike unsigned saliency; (2) a structured residual scorer that treats attention mass and intent alignment as fixed priors and learns only a denoising correction, converging with 500 trajectories; and (3) an entropy-based regime classifier that falls back to contiguous retention when the scorer cannot confidently rank steps. With a 20% KV budget on AgentBench and AlfWorld, TaskKV preserves ~ 87--89% of full-cache success rate, improving over SnapKV by 5.0--7.9 SR points and over a strong heuristic by 2.9--7.3 points; on dense tasks, gains come from detecting when utility pruning should be disabled. 
 
 # Summary. An optional shortened abstract.
 summary: None
 
 tags:
-  - Image Processing and Pattern Recognition
+  - Language and multimodal language models
 
 # Display this page in the Featured widget?
 featured: true
@@ -39,7 +55,7 @@ featured: true
 # Standard identifiers for auto-linking
 hugoblox:
   ids:
-    arxiv: 'https://arxiv.org/abs/2609.13282'
+    arxiv: ''
 
 # Custom links
 links:

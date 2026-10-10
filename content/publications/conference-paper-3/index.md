@@ -8,12 +8,14 @@ authors:
   - admin
   - Yusen Wu
   - Zihui Ling
+  - Jianyuan Ni
 
 # Author notes (optional)
 author_notes:
   - 'First author'
   - 'Second author'
   - 'Third author'
+  - 'Fourth author'
 
 date: '2026-04-16T00:00:00Z'
 
